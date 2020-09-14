@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <groups>
+      <run>
+        <include name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="amazon.LoginTest">
+        <methods>
+          <include name="loginTest" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- amazon.LoginTest -->
+      <class name="amazon.Logout">
+        <methods>
+          <include name="searchProduct" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- amazon.Logout -->
+      <class name="amazon.AddToCart">
+        <methods>
+          <include name="searchProduct" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- amazon.AddToCart -->
+      <class name="amazon.SearchProduct">
+        <methods>
+          <include name="searchProduct" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- amazon.SearchProduct -->
+      <class name="amazon.CartList">
+        <methods>
+          <include name="searchProduct" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- amazon.CartList -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

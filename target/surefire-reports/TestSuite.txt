@@ -1,0 +1,64 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 15, Errors: 0, Skipped: 0, Time elapsed: 1.962 s <<< FAILURE! - in TestSuite
+amazon.LoginTest.loginTest  Time elapsed: 0.022 s  <<< FAILURE!
+java.lang.NullPointerException
+	at amazon.LoginTest.loginTest(LoginTest.java:56)
+
+amazon.LoginTest.loginTest  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+	at amazon.LoginTest.loginTest(LoginTest.java:62)
+
+amazon.LoginTest.loginTest  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.NullPointerException
+	at amazon.LoginTest.loginTest(LoginTest.java:62)
+
+amazon.SearchProduct.searchProduct  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+	at amazon.SearchProduct.searchProduct(SearchProduct.java:53)
+
+amazon.SearchProduct.searchProduct  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+	at amazon.SearchProduct.searchProduct(SearchProduct.java:59)
+
+amazon.SearchProduct.searchProduct  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+	at amazon.SearchProduct.searchProduct(SearchProduct.java:59)
+
+amazon.AddToCart.searchProduct  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+	at amazon.AddToCart.searchProduct(AddToCart.java:48)
+
+amazon.AddToCart.searchProduct  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+	at amazon.AddToCart.searchProduct(AddToCart.java:62)
+
+amazon.AddToCart.searchProduct  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+	at amazon.AddToCart.searchProduct(AddToCart.java:62)
+
+amazon.CartList.searchProduct  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+	at amazon.CartList.searchProduct(CartList.java:50)
+
+amazon.CartList.searchProduct  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+	at amazon.CartList.searchProduct(CartList.java:69)
+
+amazon.CartList.searchProduct  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+	at amazon.CartList.searchProduct(CartList.java:69)
+
+amazon.Logout.searchProduct  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+	at amazon.Logout.searchProduct(Logout.java:51)
+
+amazon.Logout.searchProduct  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+	at amazon.Logout.searchProduct(Logout.java:70)
+
+amazon.Logout.searchProduct  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+	at amazon.Logout.searchProduct(Logout.java:70)
+

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="amazon.SearchProduct">
+        <methods>
+          <include name="searchProduct" invocation-numbers="1 2"/>
+          <include name="init"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- amazon.SearchProduct -->
+      <class name="amazon.CartList">
+        <methods>
+          <include name="quit"/>
+          <include name="init"/>
+          <include name="searchProduct" invocation-numbers="1 2"/>
+        </methods>
+      </class> <!-- amazon.CartList -->
+      <class name="amazon.Logout">
+        <methods>
+          <include name="quit"/>
+          <include name="searchProduct" invocation-numbers="1 2"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- amazon.Logout -->
+      <class name="amazon.LoginTest">
+        <methods>
+          <include name="init"/>
+          <include name="quit"/>
+          <include name="loginTest" invocation-numbers="1 2"/>
+        </methods>
+      </class> <!-- amazon.LoginTest -->
+      <class name="amazon.AddToCart">
+        <methods>
+          <include name="searchProduct" invocation-numbers="1 2"/>
+          <include name="init"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- amazon.AddToCart -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
